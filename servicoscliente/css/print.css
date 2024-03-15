@@ -1,0 +1,132 @@
+﻿
+.doc_preview {
+    font-family: Arial,Helvetica,sans-serif;
+    width: 100%;
+    max-width: 800px;
+    min-height: 700px;
+}
+
+.doc_container {
+    box-sizing: initial;
+}
+
+.doc-hr {
+    background-color: #999;
+    border: none;
+    height: 1px;
+}
+
+.doc-p-5 {
+    padding: 25px;
+}
+
+.primary-card-color {
+    background-color: #ffffff !important;
+}
+
+.table-strip tr:nth-child(2n) {
+    background-color: hsla(0,0%,40%,.06274509803921569);
+}
+
+.font-xm {
+    font-size: small;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: left;
+}
+
+.f-clear {
+    clear: both;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.bg-transparent {
+    background-color: initial !important;
+}
+
+.bna-logo {
+    max-width: 318px;
+}
+
+.doc-header {
+    font-family: Calibri;
+    font-weight: bold
+}
+
+    .doc-header .hdr-title {
+        font-size: 24px;
+        text-transform: uppercase
+    }
+
+    .doc-header .hdr-subtitle {
+        font-size: 16px;
+        margin-top: 10px
+    }
+
+.text-capital {
+    font-size: calc(1.125rem + .9vw);
+}
+
+
+.qrcode {
+    max-width: 164px !important
+}
+
+.cus-w-75 {
+    width: 75% !important
+}
+
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+    .qrcode {
+        max-width: 100px !important
+    }
+
+    .bna-logo {
+        max-width: 250px;
+    }
+
+    .doc-header .hdr-subtitle {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .cus-w-75 {
+        width: 70% !important
+    }
+}
+
+@media (max-width: 480px) {
+    .qrcode {
+        max-width: 76px !important
+    }
+
+    .bna-logo {
+        max-width: 220px;
+    }
+
+    .doc-header .hdr-subtitle {
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .cus-w-75 {
+        width: 65% !important
+    }
+
+    .text-capital {
+        font-size: calc(0.815rem + .9vw);
+        text-align:center
+    }
+}

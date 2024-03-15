@@ -1,0 +1,492 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+@import "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;500;700;900&display=swap";
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+body {
+    background: rgb(245, 245, 245);
+    height: auto !important;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+
+.voltar {
+    font-size: 16px;
+    text-decoration: unset
+}
+
+    .voltar:hover {
+        text-decoration: underline
+    }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}
+
+.py-10 {
+    padding-top: 10rem !important;
+    padding-bottom: 10rem !important;
+}
+
+.jumbotron {
+    background-image: url("../images/consumer-credit-banner.png");
+    background-size: cover;
+}
+
+.header-title {
+    background: #5f5140;
+    background-image: linear-gradient(to bottom, #5f5140, #706962);
+    z-index: 0;
+}
+
+.box {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 2px 1px -1px rgb(0 0 0 / 12%);
+    background: #fff;
+}
+
+.box2 {
+    box-shadow: 0 -1px 3px 0 rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 -2px 1px -1px rgb(0 0 0 / 12%);
+    background: #fff;
+}
+
+/*-------------------------Form-Centrilize---------------------------*/
+.col-centered {
+    margin: 0 auto;
+    float: none;
+}
+
+.vl {
+    border-right: 1px solid #d2bd8b;
+    padding-right: 10px;
+    box-shadow: 4px 0 0 0px rgb(0 0 0 / 5%);
+}
+
+.navbar a {
+    color: #a7873e; /*#0d6efd;*/
+    text-decoration: none;
+}
+
+.title-bg {
+    color: #a7873e;
+    background-color: #e9dec5 !important
+}
+
+.mutuario-bg {
+    background-color: #f9f7f1
+}
+
+@media print {
+    .noprint, .noprint * {
+        display: none !important;
+    }
+
+    * {
+        -webkit-print-color-adjust: exact !important; /* Chrome, Safari, Edge */
+        color-adjust: exact !important; /*Firefox*/
+    }
+}
+
+/*------------------------------------------------------------------
+[ Responsive ]*/
+
+@media (max-width: 576px) {
+    .navbar-brand, span {
+        font-size: initial;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand, span {
+        font-size: small;
+    }
+}
+
+.nav-right .contact-no .contact-icon {
+    margin-right: 10px;
+}
+
+.nav-right .contact-no .contact-info p {
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.nav-right .contact-no .contact-info h6 a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ol, ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.article {
+    margin-bottom: 40px;
+}
+
+.article-header {
+    background: rgba(0,21,43,.03);
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.article-body {
+    -webkit-box-shadow: 5px 7px 35px rgb(139 139 139 / 10%);
+    box-shadow: 5px 7px 35px rgb(139 139 139 / 10%);
+    padding: 30px;
+}
+
+    .article-body li {
+        margin-bottom: 20px;
+    }
+
+        .article-body li p {
+            font-size: 14px;
+            font-weight: 400;
+            font-family: "Quicksand", sans-serif;
+            color: #494949;
+            line-height: 24px;
+        }
+
+        .article-body li:last-child {
+            margin-bottom: 0px;
+        }
+
+.qsn-form .form-inner {
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.qsn-form input, .qsn-form .comment-form textarea, .comment-form .qsn-form textarea, .qsn-form textarea {
+    border: 1px solid #EEEEEE;
+    width: 100%;
+    padding-left: 20px;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.qsn-send-btn {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Nunito", sans-serif;
+    color: #fff;
+    background: #00152B;
+    border-radius: 5px;
+    padding: 16px 43px;
+    border: 1px solid #00152B;
+    display: inline-block;
+    margin-top: -8px;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+}
+
+.faq-wrap .faq-item {
+    margin-bottom: 14px;
+    border: none;
+}
+
+.faq-wrap .accordion-button:not(.collapsed):hover {
+    color: #745f4b;
+}
+
+.faq-wrap .accordion-button:hover {
+    border: 1px solid #745f4b;
+}
+
+.faq-wrap .accordion-button {
+    font-family: nunito,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    color: #00152b;
+    cursor: pointer;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+    padding: 19px;
+    padding-left: 90px;
+    padding-right: 45px;
+    position: relative;
+}
+
+
+.faq-wrap span.faq-serial {
+    font-size: 26px;
+    font-weight: 800;
+    font-family: nunito,sans-serif;
+    color: #fff;
+    background: #745f4b;
+    text-align: center;
+    border-radius: 5px;
+    min-width: 70px;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    vertical-align: center;
+    line-height: 2.4;
+}
+
+.faq-wrap .faq-body {
+    font-weight: 400;
+    font-size: 16px;
+    background: #fff;
+    font-family: quicksand,sans-serif;
+    -webkit-box-shadow: 5px 7px 40px rgb(145 145 145 / 10%);
+    box-shadow: 5px 7px 40px rgb(145 145 145 / 10%);
+    border-top: none;
+    padding: 15px 25px;
+    line-height: 1.7;
+}
+
+.faq-wrap .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    -webkit-transform: unset;
+    transform: unset;
+    font-family: bootstrap-icons !important;
+    content: "\f2ea";
+}
+
+.faq-wrap .accordion-button::after {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: unset;
+    height: unset;
+    margin-left: auto;
+    background-image: none;
+    background-repeat: unset;
+    background-size: unset;
+    font-family: bootstrap-icons !important;
+    position: absolute;
+    right: 18px;
+    content: "\f4fe";
+    -webkit-transition: unset;
+    transition: unset;
+    font-size: 20px;
+    color: #00152B;
+    width: 30px;
+    height: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+
+.contact-box-wrap {
+    background: #FFFFFF;
+    -webkit-box-shadow: 5px 7px 35px rgb(113 113 113 / 10%);
+    box-shadow: 5px 7px 35px rgb(113 113 113 / 10%);
+    padding: 40px 30px;
+}
+
+    .contact-box-wrap .single-contact-box {
+        border: 1px solid #EEEEEE;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 15px 20px;
+        margin-top: 30px;
+        background: #fff;
+        -webkit-transition: 0.4s ease-in;
+        transition: 0.4s ease-in;
+    }
+
+        .contact-box-wrap .single-contact-box .phone {
+            font-weight: 700;
+            font-size: 16px;
+            color: #5C5C5C;
+            font-family: var(--f-tertiary);
+            display: block;
+            padding-top: 5px;
+            text-decoration:none
+        }
+
+        .contact-box-wrap .single-contact-box:hover .phone {
+            color: #fff;
+        }
+
+        .contact-box-wrap .single-contact-box:hover h6 {
+            color: #fff;
+        }
+
+        .contact-box-wrap .single-contact-box:hover {
+            background: #745f4b;
+        }
+
+        .contact-box-wrap .single-contact-box .mail, .contact-box-wrap .single-contact-box .location, .contact-box-wrap .single-contact-box .weblink {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #5C5C5C;
+            font-family: var(--f-tertiary);
+            display: inline-block;
+            font-family: 600;
+            margin-right: 20px;
+            padding-top: 6px;
+            word-break: break-all;
+            text-decoration:none
+        }
+
+        .contact-box-wrap .single-contact-box:hover .mail, .contact-box-wrap .single-contact-box:hover .location, .contact-box-wrap .single-contact-box:hover .weblink {
+            color: #fff;
+        }
+
+.contact-form {
+    background: #FFFFFF;
+    -webkit-box-shadow: 5px 7px 35px rgb(113 113 113 / 10%);
+    box-shadow: 5px 7px 35px rgb(113 113 113 / 10%);
+    padding: 40px 30px;
+    padding-top: 35px;
+}
+
+    .contact-form h4 {
+        font-weight: 800;
+        font-size: 25px;
+        color: #00152B;
+        font-family: "Nunito", sans-serif;
+    }
+
+    .contact-form .contact-input-group {
+        margin-top: 22px;
+        position: relative;
+    }
+
+        .contact-form .contact-input-group input, .contact-form .contact-input-group .comment-form textarea, .comment-form .contact-form .contact-input-group textarea {
+            display: block;
+            padding: 8px 15px;
+            width: 100%;
+            background: rgba(209, 209, 209, 0.2);
+            border: 1px solid transparent;
+            border-radius: 5px;
+            height: 58px;
+            border-radius: 5px;
+            padding: 15px 20px;
+        }
+
+        .contact-form .contact-input-group label {
+            display: inline-block;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 22px;
+            color: #454545;
+            margin-left: 3px;
+            margin-bottom: 18px;
+        }
+
+        .contact-form .contact-input-group textarea {
+            display: block;
+            padding: 8px 15px;
+            width: 100%;
+            background: #FFFFFF;
+            border-radius: 5px;
+            border: none;
+            background: rgba(209, 209, 209, 0.2);
+        }
+
+        .contact-form .contact-input-group button[type="submit"] {
+            font-weight: 700;
+            font-size: 16px;
+            color: #FFFFFF;
+            background: #00152B;
+            border-radius: 5px;
+            border: none;
+            padding: 17px 35px;
+            -webkit-transition: all .3s;
+            transition: all .3s;
+            margin-top: 50px;
+        }
